@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/other_network" android:background="?unknown_attr_ref: 101030e" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0018" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/wifi_other_network" style="@style/SetupAddWifiNetwork" />
+</LinearLayout>

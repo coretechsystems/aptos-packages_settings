@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 101004d">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/package_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="12dp" android:paddingEnd="6dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/last_time_used" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="12dp" android:paddingEnd="6dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/usage_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="12dp" android:paddingEnd="6dp" />
+</LinearLayout>

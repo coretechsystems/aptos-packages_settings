@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/other_sound_settings" settings:key="other_sound_settings">
+    <SwitchPreference settings:persistent="false" settings:title="@string/dial_pad_tones_title" settings:key="dial_pad_tones" settings:switchTextOn="" settings:switchTextOff="" />
+    <SwitchPreference settings:persistent="false" settings:title="@string/screen_locking_sounds_title" settings:key="screen_locking_sounds" settings:switchTextOn="" settings:switchTextOff="" />
+    <SwitchPreference settings:persistent="false" settings:title="@string/docking_sounds_title" settings:key="docking_sounds" settings:switchTextOn="" settings:switchTextOff="" />
+    <SwitchPreference settings:persistent="false" settings:title="@string/touch_sounds_title" settings:key="touch_sounds" settings:switchTextOn="" settings:switchTextOff="" />
+    <SwitchPreference settings:persistent="false" settings:title="@string/vibrate_on_touch_title" settings:key="vibrate_on_touch" settings:switchTextOn="" settings:switchTextOff="" />
+    <com.android.settings.notification.DropDownPreference settings:persistent="false" settings:title="@string/dock_audio_media_title" settings:key="dock_audio_media" />
+    <com.android.settings.notification.DropDownPreference settings:persistent="false" settings:title="@string/emergency_tone_title" settings:key="emergency_tone" />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/print_print_job">
+    <Preference settings:key="print_job_preference" />
+    <Preference settings:layout="@layout/print_job_summary" settings:key="print_job_message_preference" />
+</PreferenceScreen>

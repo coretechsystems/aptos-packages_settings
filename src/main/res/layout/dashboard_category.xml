@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/category" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:paddingStart="@dimen/dashboard_category_padding_start" android:paddingEnd="@dimen/dashboard_category_padding_end" android:elevation="@dimen/dashboard_category_elevation">
+    <TextView android:textAppearance="@style/TextAppearance.CategoryTitle" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/category_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0044" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="@dimen/dashboard_category_title_margin_start" />
+    <com.android.settings.dashboard.DashboardContainerView android:id="@id/category_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

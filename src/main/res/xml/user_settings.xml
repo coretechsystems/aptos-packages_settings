@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/user_settings_title">
+    <PreferenceCategory settings:title="@string/user_list_title" settings:key="user_list" />
+    <Preference settings:icon="@drawable/ic_menu_add_dark" settings:title="@string/user_add_user_or_profile_menu" settings:key="user_add" />
+</PreferenceScreen>

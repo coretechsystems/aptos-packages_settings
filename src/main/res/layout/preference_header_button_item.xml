@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="?unknown_attr_ref: 10102fd" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:paddingEnd="?unknown_attr_ref: 1010063"
+    <LinearLayout android:layout_width="UNKNOWN_DATA_0x7f0d0028" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginEnd="6dp">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:layout_weight="1.0" android:layout_marginStart="2dp" android:layout_marginEnd="6dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="marquee" android:id="0x1020016" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:ellipsize="end" android:id="0x1020010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="0x1020016" android:layout_alignStart="0x1020016" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" style="@style/VertDivider" />
+    <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/buttonWidget" android:padding="8dp" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 101032b" />
+</LinearLayout>

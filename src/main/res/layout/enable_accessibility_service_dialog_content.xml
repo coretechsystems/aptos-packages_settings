@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="outsideOverlay" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/encryption_warning" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/capabilities_header" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/capabilities" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+</ScrollView>

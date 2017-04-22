@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 101004d" android:columnCount="2" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+    <ImageView android:id="@id/icon" android:layout_width="UNKNOWN_DATA_0x1050000" android:layout_height="UNKNOWN_DATA_0x1050000" android:scaleType="centerInside" android:contentDescription="0x0" android:layout_rowSpan="2" android:layout_marginEnd="8dp" />
+    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_marginTop="2dp">
+        <TextView android:textAppearance="@*android:style/TextAppearance.Material.Subhead" android:ellipsize="marquee" android:id="@id/name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="@*android:style/TextAppearance.Material.Body1" android:textColor="?unknown_attr_ref: 1010038" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1">
+        <TextView android:textAppearance="@*android:style/TextAppearance.Material.Body1" android:textColor="?unknown_attr_ref: 1010038" android:id="@id/description" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="@*android:style/TextAppearance.Material.Body1" android:textColor="?unknown_attr_ref: 1010038" android:id="@id/uptime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+    </LinearLayout>
+</GridLayout>

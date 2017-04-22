@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/accessibility_captioning_title" settings:key="captioning_preference_screen" settings:fragment="com.android.settings.accessibility.CaptionPropertiesFragment">
+    <PreferenceCategory settings:title="@string/captioning_standard_options_title" settings:key="standard">
+        <com.android.settings.accessibility.LocalePreference settings:persistent="false" settings:title="@string/captioning_locale" settings:key="captioning_locale" settings:summary="%s" />
+        <ListPreference settings:persistent="false" settings:entries="@array/captioning_font_size_selector_titles" settings:title="@string/captioning_text_size" settings:key="captioning_font_size" settings:summary="%s" settings:entryValues="@array/captioning_font_size_selector_values" />
+        <com.android.settings.accessibility.PresetPreference settings:persistent="false" settings:title="@string/captioning_preset" settings:key="captioning_preset" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/captioning_custom_options_title" settings:key="custom">
+        <ListPreference settings:persistent="false" settings:entries="@array/captioning_typeface_selector_titles" settings:title="@string/captioning_typeface" settings:key="captioning_typeface" settings:summary="%s" settings:entryValues="@array/captioning_typeface_selector_values" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_foreground_color" settings:key="captioning_foreground_color" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_foreground_opacity" settings:key="captioning_foreground_opacity" />
+        <com.android.settings.accessibility.EdgeTypePreference settings:persistent="false" settings:title="@string/captioning_edge_type" settings:key="captioning_edge_type" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_edge_color" settings:key="captioning_edge_color" settings:dependency="captioning_edge_type" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_background_color" settings:key="captioning_background_color" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_background_opacity" settings:key="captioning_background_opacity" settings:dependency="captioning_background_color" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_window_color" settings:key="captioning_window_color" />
+        <com.android.settings.accessibility.ColorPreference settings:persistent="false" settings:title="@string/captioning_window_opacity" settings:key="captioning_window_opacity" settings:dependency="captioning_window_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

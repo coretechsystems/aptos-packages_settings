@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/privacy_settings_title">
+    <PreferenceCategory settings:title="@string/backup_section_title" settings:key="backup_category">
+        <SwitchPreference settings:persistent="false" settings:title="@string/backup_data_title" settings:key="backup_data" settings:summary="@string/backup_data_summary" />
+        <PreferenceScreen settings:persistent="false" settings:title="@string/backup_configure_account_title" settings:key="configure_account" settings:summary="@string/backup_configure_account_default_summary">
+            <intent settings:action="dummy" />
+        </PreferenceScreen>
+        <SwitchPreference settings:persistent="false" settings:title="@string/auto_restore_title" settings:key="auto_restore" settings:summary="@string/auto_restore_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/personal_data_section_title" settings:key="personal_data_category">
+        <PreferenceScreen settings:title="@string/master_clear_title" settings:summary="@string/master_clear_summary" settings:fragment="com.android.settings.MasterClear" settings:keywords="@string/keywords_factory_data_reset" />
+    </PreferenceCategory> />

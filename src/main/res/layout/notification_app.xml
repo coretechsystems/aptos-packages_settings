@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?unknown_attr_ref: 10102f0" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+    <ImageView android:id="0x1020006" android:padding="8dp" android:layout_width="UNKNOWN_DATA_0x7f0d0032" android:layout_height="UNKNOWN_DATA_0x7f0d0032" android:layout_centerVertical="true" android:contentDescription="0x0" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="end" android:id="0x1020016" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:textAlignment="viewStart" android:layout_toEndOf="0x1020006" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020014" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0032" android:singleLine="true" android:textAlignment="viewStart" android:layout_toEndOf="0x1020006" />
+    <View android:id="@id/row_divider" android:background="?unknown_attr_ref: 1010214" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

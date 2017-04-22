@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/language_keyboard_settings_title" settings:key="language_keyboard_settings"
+    <PreferenceScreen settings:title="@string/phone_language" settings:key="phone_language" settings:fragment="com.android.settings.LocalePicker" />
+    <PreferenceScreen settings:persistent="false" settings:title="@string/spellcheckers_settings_title" settings:key="spellcheckers_settings" settings:keywords="@string/keywords_spell_checker" />
+    <PreferenceScreen settings:title="@string/user_dict_settings_title" settings:key="key_user_dictionary_settings" />
+    <PreferenceCategory settings:title="@string/keyboard_settings_category" settings:key="keyboard_settings_category" settings:keywords="@string/keywords_keyboard_and_ime">
+        <PreferenceScreen settings:title="@string/current_input_method" settings:key="current_input_method" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:persistent="false" settings:title="@string/builtin_keyboard_settings_title" settings:key="hard_keyboard" />
+    <PreferenceCategory settings:title="@string/voice_category" settings:key="voice_category">
+        <PreferenceScreen settings:title="@string/voice_input_settings_title" settings:key="voice_input_settings" settings:fragment="com.android.settings.voice.VoiceInputSettings" settings:keywords="@string/keywords_voice_input" />
+        <PreferenceScreen settings:title="@string/tts_settings_title" settings:key="tts_settings" settings:fragment="com.android.settings.tts.TextToSpeechSettings" settings:keywords="@string/keywords_text_to_speech_output" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/pointer_settings_category" settings:key="pointer_settings_category">
+        <com.android.settings.PointerSpeedPreference settings:title="@string/pointer_speed" settings:key="pointer_speed" settings:dialogTitle="@string/pointer_speed" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/game_controller_settings_category" settings:key="game_controller_settings_category">
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/vibrate_input_devices" settings:key="vibrate_input_devices" settings:summaryOn="@string/vibrate_input_devices_summary" settings:summaryOff="@string/vibrate_input_devices_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/encryption_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="?unknown_attr_ref: 10103bd" android:layout_marginEnd="?unknown_attr_ref: 10103be" />
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:checkedButton="@id/encrypt_require_password" android:layout_marginStart="?unknown_attr_ref: 10103bd" android:layout_marginEnd="?unknown_attr_ref: 10103be">
+        <RadioButton android:id="@id/encrypt_require_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        <RadioButton android:id="@id/encrypt_dont_require_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+    </RadioGroup>
+</LinearLayout>

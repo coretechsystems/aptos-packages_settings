@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/sim_lock_settings">
+    <CheckBoxPreference settings:title="@string/sim_pin_toggle" settings:key="sim_toggle" settings:summaryOn="@string/sim_lock_on" settings:summaryOff="@string/sim_lock_off" />
+    <com.android.settings.EditPinPreference settings:title="@string/sim_pin_change" settings:key="sim_pin" settings:dependency="sim_toggle" settings:dialogTitle="@string/sim_change_pin" settings:dialogMessage="@string/sim_enter_old" settings:positiveButtonText="@string/sim_enter_ok" settings:negativeButtonText="@string/sim_enter_cancel" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="UNKNOWN_DATA_0x7f0c0007" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/all_details" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+            <include android:id="@id/app_snippet" layout="@layout/manage_applications_item" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/operations_section" android:layout_width="match_parent" android:layout_height="match_parent" /> />
+</ScrollView>

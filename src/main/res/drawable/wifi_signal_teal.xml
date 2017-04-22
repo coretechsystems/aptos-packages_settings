@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/com.android.settings">
+    <item settings:drawable="@drawable/wifi_signal_lock_teal" settings:state_encrypted="true" />
+    <item settings:drawable="@drawable/wifi_signal_open_teal" settings:state_encrypted="false" />
+</selector>

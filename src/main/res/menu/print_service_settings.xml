@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/print_menu_item_search" android:title="@string/print_menu_item_search" android:imeOptions="actionNone|actionGo|actionSearch|actionNext|actionDone|actionPrevious" android:showAsAction="collapseActionView" android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@id/print_menu_item_add_printer" android:title="@string/print_menu_item_add_printer" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/print_menu_item_settings" android:title="@string/print_menu_item_settings" android:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

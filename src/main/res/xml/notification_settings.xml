@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/notification_settings" settings:key="notification_settings" settings:keywords="@string/keywords_sounds_and_notifications">
+    <PreferenceCategory settings:title="@string/sound_settings" settings:key="sound">
+        <com.android.settings.notification.VolumeSeekBarPreference settings:icon="@drawable/ic_audio_vol_24dp" settings:title="@string/media_volume_option_title" settings:key="media_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference settings:icon="@drawable/ic_audio_alarm_24dp" settings:title="@string/alarm_volume_option_title" settings:key="alarm_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference settings:icon="@drawable/ring_notif" settings:title="@string/ring_volume_option_title" settings:key="ring_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference settings:icon="@drawable/ring_notif" settings:title="@string/notification_volume_option_title" settings:key="notification_volume" />
+        <SwitchPreference settings:persistent="false" settings:title="@string/vibrate_when_ringing_title" settings:key="vibrate_when_ringing" />
+        <PreferenceScreen settings:title="@string/zen_mode_settings_title" settings:key="zen_mode" settings:fragment="com.android.settings.notification.ZenModeSettings" settings:keywords="@string/keywords_sounds_and_notifications_interruptions" />
+        <com.android.settings.DefaultRingtonePreference settings:persistent="false" settings:title="@string/ringtone_title" settings:key="ringtone" settings:dialogTitle="@string/ringtone_title" settings:ringtoneType="ringtone|all" />
+        <com.android.settings.DefaultRingtonePreference settings:persistent="false" settings:title="@string/notification_ringtone_title" settings:key="notification_ringtone" settings:dialogTitle="@string/notification_ringtone_title" settings:ringtoneType="notification|all" />
+        <Preference settings:persistent="false" settings:title="@string/other_sound_settings" settings:key="other_sounds" settings:fragment="com.android.settings.notification.OtherSoundSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/notification_section_header" settings:key="notification">
+        <SwitchPreference settings:persistent="false" settings:title="@string/notification_pulse_title" settings:key="notification_pulse" settings:switchTextOn="" settings:switchTextOff="" />
+        <com.android.settings.notification.DropDownPreference settings:persistent="false" settings:title="@string/lock_screen_notifications_title" settings:key="lock_screen_notifications" />
+        <PreferenceScreen settings:title="@string/app_notifications_title" settings:key="app_notifications" settings:fragment="com.android.settings.notification.NotificationAppList" />
+        <Preference settings:persistent="false" settings:title="@string/manage_notification_access_title" settings:key="manage_notification_access" settings:fragment="com.android.settings.notification.NotificationAccessSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

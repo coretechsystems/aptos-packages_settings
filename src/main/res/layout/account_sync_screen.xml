@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/title" />
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="?unknown_attr_ref: 1010214" android:scaleType="fitXY" android:layout_marginStart="@dimen/settings_side_margin" android:layout_marginEnd="@dimen/settings_side_margin" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <TextView android:id="@id/sync_settings_error_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:text="@string/sync_is_failing" android:drawableLeft="@drawable/ic_sync_error_holo" android:drawablePadding="8dp" />
+    <RelativeLayout android:id="@id/finish_button_area" android:background="0x108009a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/finish_button" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/finish_button_label" android:drawablePadding="3dp" android:drawableEnd="@drawable/ic_btn_next" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

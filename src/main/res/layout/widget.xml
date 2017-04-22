@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/main" android:background="@drawable/appwidget_bg_holo" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_wifi" android:background="@drawable/appwidget_button_left" android:paddingTop="12dp" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_wifi" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="0x0" />
+        <ImageView android:id="@id/ind_wifi" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="0x0" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/appwidget_settings_divider_holo" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:contentDescription="0x0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_bluetooth" android:background="@drawable/appwidget_button_center" android:paddingTop="12dp" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_bluetooth" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="0x0" />
+        <ImageView android:id="@id/ind_bluetooth" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="0x0" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/appwidget_settings_divider_holo" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:contentDescription="0x0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_location" android:background="@drawable/appwidget_button_center" android:paddingTop="12dp" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_location" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="0x0" />
+        <ImageView android:id="@id/ind_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="0x0" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/appwidget_settings_divider_holo" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:contentDescription="0x0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_sync" android:background="@drawable/appwidget_button_center" android:paddingTop="12dp" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_sync" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="0x0" />
+        <ImageView android:id="@id/ind_sync" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="0x0" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/appwidget_settings_divider_holo" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:contentDescription="0x0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_brightness" android:background="@drawable/appwidget_button_right" android:paddingTop="12dp" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_brightness" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="0x0" />
+        <ImageView android:id="@id/ind_brightness" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="0x0" />
+    </LinearLayout>
+</LinearLayout>

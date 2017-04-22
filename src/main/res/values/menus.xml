@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="account_settings">res/menu/account_settings.xml</menu>
+    <menu name="data_usage">res/menu/data_usage.xml</menu>
+    <menu name="misc_files_menu">res/menu/misc_files_menu.xml</menu>
+    <menu name="options_menu">res/menu/options_menu.xml</menu>
+    <menu name="print_service_settings">res/menu/print_service_settings.xml</menu>
+    <menu name="storage">res/menu/storage.xml</menu>
+    <menu name="vpn">res/menu/vpn.xml</menu>
+    <menu name="wifi_setup">res/menu/wifi_setup.xml</menu>
+</resources>

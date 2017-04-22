@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/sim_dialog_padding" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:id="@id/type" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_name" style="?unknown_attr_ref: 1010041" />
+            <EditText android:id="@id/sim_name" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/wifi_ssid_hint" android:singleLine="true" android:maxLength="@integer/sim_name_length" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_carrier" />
+            <TextView android:textColor="0x106000c" android:id="@id/carrier" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="?unknown_attr_ref: 1010041" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_number" />
+            <TextView android:textColor="0x106000c" android:id="@id/number" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="?unknown_attr_ref: 1010041" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_num_format" />
+            <Spinner android:entries="@array/sim_card_data_range" android:id="@id/display_numbers" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:prompt="@string/sim_editor_num_format" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

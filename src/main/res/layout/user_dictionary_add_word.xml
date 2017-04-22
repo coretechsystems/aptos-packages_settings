@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/user_dict_settings_add_dialog_top" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.android.internal.widget.DialogTitle android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001" android:text="@string/user_dict_settings_add_dialog_title" android:singleLine="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" style="?unknown_attr_ref: 101005b" />
+        <View android:background="0x1060012" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    </LinearLayout>
+    <EditText android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/user_dictionary_add_word_text" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:hint="@string/user_dict_settings_add_word_hint" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:imeOptions="flagNoFullscreen" android:layout_marginStart="8dp">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?unknown_attr_ref: 101032c" android:showDividers="beginning" android:dividerPadding="0dp"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?unknown_attr_ref: 101032e">
+            <Button android:textSize="14sp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="2" android:layout_weight="1.0" android:onClick="onClickCancel" style="?unknown_attr_ref: 101032f" />
+            <Button android:textSize="14sp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/user_dict_settings_add_dialog_confirm" android:maxLines="2" android:layout_weight="1.0" android:onClick="onClickConfirm" style="?unknown_attr_ref: 101032f" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

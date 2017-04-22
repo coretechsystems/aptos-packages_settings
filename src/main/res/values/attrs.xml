@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="setup_wizard_navbar_bg_color">
+        <item>16</item>
+    </attr>
+    <attr name="setup_wizard_navbar_text_color">
+        <item>16</item>
+    </attr>
+    <attr name="setup_wizard_navbar_theme">
+        <item>1</item>
+    </attr>
+    <attr name="state_encrypted">
+        <item>8</item>
+    </attr>
+    <attr name="icon">
+        <item>1</item>
+    </attr>
+    <attr name="aspectRatio">
+        <item>32</item>
+    </attr>
+    <attr name="headerAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="barPrimaryColor">
+        <item>17</item>
+    </attr>
+    <attr name="barPredictionColor">
+        <item>17</item>
+    </attr>
+    <attr name="chartMinHeight">
+        <item>65</item>
+    </attr>
+    <attr name="emptyColor">
+        <item>16</item>
+    </attr>
+    <attr name="minTickWidth">
+        <item>64</item>
+    </attr>
+    <attr name="optimalWidth">
+        <item>64</item>
+    </attr>
+    <attr name="optimalWidthWeight">
+        <item>32</item>
+    </attr>
+    <attr name="sweepDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="followAxis">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="neighborMargin">
+        <item>64</item>
+    </attr>
+    <attr name="labelSize">
+        <item>64</item>
+    </attr>
+    <attr name="labelTemplate">
+        <item>1</item>
+    </attr>
+    <attr name="labelColor">
+        <item>16</item>
+    </attr>
+    <attr name="safeRegion">
+        <item>64</item>
+    </attr>
+    <attr name="primaryDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="secondaryDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="borderDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="strokeColor">
+        <item>16</item>
+    </attr>
+    <attr name="fillColor">
+        <item>16</item>
+    </attr>
+    <attr name="fillColorSecondary">
+        <item>16</item>
+    </attr>
+    <attr name="apnPreferenceStyle">
+        <item>1</item>
+    </attr>
+    <attr name="keywords">
+        <item>2</item>
+    </attr>
+    <attr name="switchBarTheme">
+        <item>1</item>
+    </attr>
+    <attr name="switchBarMarginStart">
+        <item>64</item>
+    </attr>
+    <attr name="switchBarMarginEnd">
+        <item>64</item>
+    </attr>
+    <attr name="preferenceBackgroundColor">
+        <item>16</item>
+    </attr>
+    <attr name="ic_menu_add">
+        <item>1</item>
+    </attr>
+    <attr name="ic_menu_moreoverflow">
+        <item>1</item>
+    </attr>
+    <attr name="ic_wps">
+        <item>1</item>
+    </attr>
+    <attr name="setup_divider_color">
+        <item>1</item>
+    </attr>
+    <attr name="wifi_signal_color">
+        <item>1</item>
+    </attr>
+    <attr name="wifi_signal">
+        <item>1</item>
+    </attr>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="4dp" android:paddingTop="16dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@drawable/transparency_tileable" android:layout_width="UNKNOWN_DATA_0x6001" android:layout_height="UNKNOWN_DATA_0x6001">
+        <com.android.internal.widget.SubtitleView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/captioning_preview_characters" />
+    </FrameLayout>
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/summary" android:layout_width="UNKNOWN_DATA_0x6001" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/wifi_assistant_card" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d005a">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cardBackground" android:background="@color/wifi_assistant_color_accent" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/wifi_assistant_card" />
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/backgroundText" android:paddingTop="@dimen/wifi_assistant_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wifi_assistant_text_padding" android:text="@string/wifi_assistant_intro_setup" android:paddingStart="@dimen/wifi_assistant_padding_start_end" style="@style/WifiAssistantText" />
+    </RelativeLayout>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wifi_assistant_text" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wifi_assistant_padding_start_end" android:layout_marginTop="@dimen/wifi_assistant_padding_top_bottom" android:layout_marginRight="@dimen/wifi_assistant_padding_start_end" android:layout_marginBottom="@dimen/wifi_assistant_padding_top_bottom" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/no_thanks_button" android:text="@string/wifi_assistant_no_thanks" style="@style/WifiAssistantButton.Negative" />
+        <Button android:id="@id/setup" android:text="@string/wifi_assistant_setup" style="@style/WifiAssistantButton.Positive" />
+    </LinearLayout>
+</LinearLayout>

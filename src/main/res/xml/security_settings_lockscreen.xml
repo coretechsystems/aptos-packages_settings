@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/security_settings_title">
+    <PreferenceCategory settings:title="@string/lock_settings_title" settings:key="security_category">
+        <PreferenceScreen settings:persistent="false" settings:title="@string/unlock_set_unlock_launch_picker_title" settings:key="unlock_set_or_change" settings:summary="@string/unlock_set_unlock_mode_off" settings:keywords="@string/keywords_lockscreen" />
+        <PreferenceScreen settings:title="@string/owner_info_settings_title" settings:key="owner_info_settings" settings:summary="@string/owner_info_settings_summary" settings:fragment="com.android.settings.OwnerInfoSettings" />
+    </PreferenceCategory> />

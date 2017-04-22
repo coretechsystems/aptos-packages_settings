@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0">
+        <com.android.settings.widget.SwitchBar android:theme="?attr/switchBarTheme" android:id="@id/switch_bar" android:background="@drawable/switchbar_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" />
+        <FrameLayout android:id="@id/main_content" android:background="?attr/preferenceBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/button_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:id="@id/back_button" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="0x104054a" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <Button android:id="@id/skip_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="0x104054c" />
+            <Button android:id="@id/next_button" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="0x104054b" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

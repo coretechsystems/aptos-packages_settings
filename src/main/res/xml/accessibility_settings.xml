@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/accessibility_settings">
+    <PreferenceCategory settings:title="@string/accessibility_services_title" settings:key="services_category" />
+    <PreferenceCategory settings:title="@string/accessibility_system_title" settings:key="system_category">
+        <PreferenceScreen settings:title="@string/accessibility_captioning_title" settings:key="captioning_preference_screen" settings:fragment="com.android.settings.accessibility.CaptionPropertiesFragment" />
+        <PreferenceScreen settings:title="@string/accessibility_screen_magnification_title" settings:key="screen_magnification_preference_screen" settings:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment" />
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/accessibility_toggle_large_text_preference_title" settings:key="toggle_large_text_preference" />
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/accessibility_toggle_high_text_contrast_preference_title" settings:key="toggle_high_text_contrast_preference" settings:summary="@string/experimental_preference" />
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/accessibility_power_button_ends_call_prerefence_title" settings:key="toggle_power_button_ends_call_preference" />
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/accelerometer_title" settings:key="toggle_lock_screen_rotation_preference" />
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/accessibility_toggle_speak_password_preference_title" settings:key="toggle_speak_password_preference" />
+        <PreferenceScreen settings:title="@string/accessibility_global_gesture_preference_title" settings:key="enable_global_gesture_preference_screen" settings:fragment="com.android.settings.accessibility.ToggleGlobalGesturePreferenceFragment" />
+        <PreferenceScreen settings:title="@string/tts_settings_title" settings:key="tts_settings_preference" settings:fragment="com.android.settings.tts.TextToSpeechSettings" />
+        <ListPreference settings:persistent="false" settings:entries="@array/long_press_timeout_selector_titles" settings:title="@string/accessibility_long_press_timeout_preference_title" settings:key="select_long_press_timeout_preference" settings:entryValues="@array/long_press_timeout_selector_values" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/accessibility_display_title" settings:key="display_category">
+        <SwitchPreference settings:persistent="false" settings:title="@string/accessibility_display_inversion_preference_title" settings:key="toggle_inversion_preference" settings:summary="@string/accessibility_display_inversion_preference_subtitle" />
+        <PreferenceScreen settings:title="@string/accessibility_display_daltonizer_preference_title" settings:key="daltonizer_preference_screen" settings:fragment="com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment" />
+    </PreferenceCategory> />

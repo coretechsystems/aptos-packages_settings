@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/com.android.settings">
+    <item settings:state_encrypted="true">
+        <level-list>
+            <item settings:maxLevel="0">
+                <bitmap settings:src="@drawable/ic_wifi_lock_signal_1_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+            <item settings:maxLevel="1">
+                <bitmap settings:src="@drawable/ic_wifi_lock_signal_2_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+            <item settings:maxLevel="2">
+                <bitmap settings:src="@drawable/ic_wifi_lock_signal_3_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+            <item settings:maxLevel="3">
+                <bitmap settings:src="@drawable/ic_wifi_lock_signal_4_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+        </level-list>
+    </item>
+    <item settings:state_encrypted="false">
+        <level-list>
+            <item settings:maxLevel="0">
+                <bitmap settings:src="@drawable/ic_wifi_signal_1_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+            <item settings:maxLevel="1">
+                <bitmap settings:src="@drawable/ic_wifi_signal_2_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+            <item settings:maxLevel="2">
+                <bitmap settings:src="@drawable/ic_wifi_signal_3_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+            <item settings:maxLevel="3">
+                <bitmap settings:src="@drawable/ic_wifi_signal_4_light" settings:tint="?attr/wifi_signal_color" />
+            </item>
+        </level-list>
+    </item>
+</selector>

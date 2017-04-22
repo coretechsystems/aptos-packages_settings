@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@id/network_switches_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/network_switches" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?unknown_attr_ref: 1010214" android:showDividers="middle|end" />
+    </FrameLayout>
+    <include layout="@layout/data_usage_chart" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Body1" android:textColor="?unknown_attr_ref: 1010038" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/disclaimer" android:paddingTop="8dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/data_usage_disclaimer" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Body1" android:textColor="?unknown_attr_ref: 1010038" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020004" android:paddingTop="4dp" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/data_usage_empty" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be" />
+    <View android:id="@id/stupid_padding" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+    <include layout="@layout/data_usage_detail" />
+</LinearLayout>

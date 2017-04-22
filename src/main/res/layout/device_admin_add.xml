@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/active_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/admin_icon" android:layout_width="UNKNOWN_DATA_0x1050000" android:layout_height="UNKNOWN_DATA_0x1050000" android:scaleType="fitCenter" android:contentDescription="0x0" android:layout_marginEnd="16dp" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:ellipsize="marquee" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/admin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/profile_owner_warning" android:padding="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/adding_profile_owner_warning" />
+                <TextView android:id="@id/admin_description" android:padding="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.0" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/add_msg_expander" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" />
+                    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/add_msg" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:id="@id/admin_warning" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:id="@id/admin_policies" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="16dp" android:paddingEnd="12dp" /> /> />
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?unknown_attr_ref: 101032c" android:showDividers="beginning"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?unknown_attr_ref: 101032e"
+            <LinearLayout android:orientation="horizontal" android:id="@id/leftSpacer" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="0.25" />
+            <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cancel_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="2" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+            <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/action_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/rightSpacer" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="0.25" /> /> /> />

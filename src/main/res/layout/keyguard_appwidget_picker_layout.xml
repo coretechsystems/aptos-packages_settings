@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/layout_root" android:paddingLeft="@dimen/keyguard_appwidget_picker_margin_left" android:paddingTop="2dp" android:paddingRight="@dimen/keyguard_appwidget_picker_margin_right" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/widget_list" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="0x106000d" android:numColumns="UNKNOWN_DATA_0x7f0c0006" android:layout_weight="1.0" />
+</LinearLayout>

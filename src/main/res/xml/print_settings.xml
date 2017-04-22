@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/print_settings_title" settings:keywords="@string/keywords_printing">
+    <PreferenceCategory settings:title="@string/print_print_jobs" settings:key="print_jobs_category" settings:order="0" />
+    <PreferenceCategory settings:title="@string/print_settings_title" settings:key="print_services_category" settings:order="1" />
+</PreferenceScreen>

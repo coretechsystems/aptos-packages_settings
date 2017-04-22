@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/lock_screen_notifications_interstitial_message" android:layout_marginStart="?unknown_attr_ref: 10103bd" android:layout_marginEnd="?unknown_attr_ref: 10103be" />
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:checkedButton="@id/redact_sensitive" android:layout_marginStart="?unknown_attr_ref: 10103bd" android:layout_marginEnd="?unknown_attr_ref: 10103be">
+        <RadioButton android:id="@id/show_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/lock_screen_notifications_summary_show" />
+        <RadioButton android:id="@id/redact_sensitive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/lock_screen_notifications_summary_hide" />
+        <RadioButton android:id="@id/hide_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/lock_screen_notifications_summary_disable" />
+    </RadioGroup>
+</LinearLayout>

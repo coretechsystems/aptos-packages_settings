@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/power_usage_summary_title" settings:key="app_list" settings:keywords="@string/keywords_battery" />

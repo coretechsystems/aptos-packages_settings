@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/radio_controls_title">
+    <SwitchPreference settings:persistent="false" settings:title="@string/airplane_mode" settings:key="toggle_airplane" settings:disableDependentsState="true" />
+    <com.android.settings.AppListPreference settings:persistent="false" settings:title="@string/sms_application_title" settings:key="sms_application" settings:summary="%s" settings:keywords="@string/keywords_more_default_sms_app" />
+    <SwitchPreference settings:persistent="false" settings:title="@string/nfc_quick_toggle_title" settings:key="toggle_nfc" settings:summary="@string/nfc_quick_toggle_summary" />
+    <PreferenceScreen settings:title="@string/android_beam_settings_title" settings:key="android_beam_settings" settings:fragment="com.android.settings.nfc.AndroidBeam" />
+    <PreferenceScreen settings:title="@string/tether_settings_title_all" settings:key="tether_settings" settings:fragment="com.android.settings.TetherSettings" />
+    <PreferenceScreen settings:title="@string/vpn_settings_title" settings:key="vpn_settings" settings:fragment="com.android.settings.vpn2.VpnSettings" />
+    <PreferenceScreen settings:title="@string/network_settings_title" settings:key="mobile_network_settings" settings:dependency="toggle_airplane" settings:keywords="@string/keywords_more_mobile_networks">
+        <intent settings:targetPackage="com.android.phone" settings:action="android.intent.action.MAIN" settings:targetClass="com.android.phone.MobileNetworkSettings" />
+    </PreferenceScreen>
+    <Preference settings:persistent="false" settings:title="@string/manage_mobile_plan_title" settings:key="manage_mobile_plan" />
+    <PreferenceScreen settings:title="@string/wimax_settings" settings:key="wimax_settings">
+        <intent settings:targetPackage="com.android.settings.wimax" settings:action="android.intent.action.MAIN" settings:targetClass="com.android.settings.wimax.WimaxSettings" />
+    </PreferenceScreen>
+    <CheckBoxPreference settings:persistent="false" settings:title="@string/nsd_quick_toggle_title" settings:key="toggle_nsd" settings:summary="@string/nsd_quick_toggle_summary" />
+    <PreferenceScreen settings:title="@string/proxy_settings_title" settings:key="proxy_settings" settings:fragment="com.android.settings.ProxySelector" />
+    <PreferenceScreen settings:title="@string/cell_broadcast_settings" settings:key="cell_broadcast_settings">
+        <intent settings:targetPackage="com.android.cellbroadcastreceiver" settings:action="android.intent.action.MAIN" settings:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
+    </PreferenceScreen>
+</PreferenceScreen>

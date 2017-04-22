@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101004d" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+    <com.android.settings.applications.LinearColorBar android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/linear_color_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:shadowColor="?unknown_attr_ref: 1010031" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="4.0" />
+</FrameLayout>

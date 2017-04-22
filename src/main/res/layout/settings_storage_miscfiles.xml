@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.deviceinfo.FileItemInfoLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="?unknown_attr_ref: 101030e" android:focusable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101004d" android:paddingEnd="?unknown_attr_ref: 1010063">
+    <CheckBox android:id="@id/misc_checkbox" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerVertical="true" android:paddingStart="16dp" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/misc_filename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="16dp" android:layout_toEndOf="@id/misc_checkbox" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="bold" android:id="@id/misc_filesize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/misc_filename" android:paddingStart="16dp" android:layout_toEndOf="@id/misc_checkbox" />
+</com.android.settings.deviceinfo.FileItemInfoLayout>

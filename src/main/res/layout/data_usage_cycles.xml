@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 1010387" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+    <Spinner android:textAppearance="@*android:style/TextAppearance.Material.Subhead" android:textColor="?unknown_attr_ref: 1010036" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cycles_spinner" android:paddingLeft="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Subhead" android:textColor="?unknown_attr_ref: 1010036" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cycle_summary" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewEnd" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/preview_viewport" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0030" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/caption_background" android:scaleType="centerCrop" android:contentDescription="0x0" />
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/preview_window" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.android.internal.widget.SubtitleView android:id="@id/preview_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/captioning_preview_text" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/properties_fragment" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

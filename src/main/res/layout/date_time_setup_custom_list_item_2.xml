@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 101004d" android:mode="twoLine">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="0x1020014" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="16dp" android:layout_marginStart="10dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="0x1020015" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="10dp" android:layout_below="0x1020014" android:layout_alignStart="0x1020014" />
+</TwoLineListItem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_payment_tap_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/nfc_payment_empty_state" />
+        <TextView android:textSize="24sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_payment_empty_text" android:paddingTop="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_payment_no_apps" />
+        <TextView android:textSize="20sp" android:textStyle="italic" android:textColor="0x1060012" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_payment_learn_more" android:paddingTop="16dp" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_payment_learn_more" />
+    </LinearLayout>
+    <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" />
+</FrameLayout>

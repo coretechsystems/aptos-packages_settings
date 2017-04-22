@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:autoMirrored="true">
+    <item>
+        <bitmap android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:src="@drawable/setup_illustration_horizontal_tile" android:tileModeX="repeat" android:tileModeY="disabled" />
+    </item>
+    <item android:id="@id/illustration_image">
+        <bitmap android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:src="@drawable/setup_illustration_wifi_wide_image" />
+    </item>
+</layer-list>

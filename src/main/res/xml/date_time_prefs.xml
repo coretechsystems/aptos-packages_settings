@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/date_and_time" settings:keywords="@string/keywords_date_and_time">
+    <CheckBoxPreference settings:title="@string/date_time_auto" settings:key="auto_time" settings:summaryOn="@string/date_time_auto_summaryOn" settings:summaryOff="@string/date_time_auto_summaryOff" />
+    <CheckBoxPreference settings:title="@string/zone_auto" settings:key="auto_zone" settings:summaryOn="@string/zone_auto_summaryOn" settings:summaryOff="@string/zone_auto_summaryOff" />
+    <Preference settings:title="@string/date_time_set_date" settings:key="date" settings:summary="03/10/2008" />
+    <Preference settings:title="@string/date_time_set_time" settings:key="time" settings:summary="12:00am" />
+    <PreferenceScreen settings:title="@string/date_time_set_timezone" settings:key="timezone" settings:summary="GMT-8:00" settings:fragment="com.android.settings.ZonePicker" />
+    <CheckBoxPreference settings:title="@string/date_time_24hour" settings:key="24 hour" />
+    <ListPreference settings:title="@string/date_time_date_format" settings:key="date_format" settings:summary="mm/dd/yyyy" />
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.SetupWizardIllustration xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:id="@id/title_area" settings:tag="stickyContainer" settings:background="@drawable/setup_illustration_bg" settings:layout_width="match_parent" settings:layout_height="wrap_content" settings:foreground="@drawable/setup_illustration_wifi" settings:elevation="@dimen/setup_wizard_title_area_elevation" settings:aspectRatio="2.22">
+    <TextView settings:id="@id/title" settings:tag="sticky" settings:layout_width="match_parent" settings:layout_height="wrap_content" settings:text="@string/wifi_setup_wizard_title" style="@style/SetupTitle" />
+</com.android.settings.widget.SetupWizardIllustration>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference settings:persistent="false" settings:title="@string/user_enable_calling_sms" settings:key="enable_calling" />
+    <Preference settings:title="@string/user_remove_user" settings:key="remove_user" />
+</PreferenceScreen>

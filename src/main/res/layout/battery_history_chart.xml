@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+    <com.android.settings.fuelgauge.BatteryHistoryChart app:textAppearance="?unknown_attr_ref: 1010042" app:textColor="#ff000000" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/battery_history_chart" app:layout_width="match_parent" app:layout_height="match_parent" app:shadowColor="?unknown_attr_ref: 1010031" app:shadowDx="2.0" app:shadowDy="2.0" app:shadowRadius="4.0" app:headerAppearance="?unknown_attr_ref: 1010041" app:barPrimaryColor="?unknown_attr_ref: 101042a" app:barPredictionColor="@color/material_empty_color_light" app:chartMinHeight="@dimen/battery_history_chart_height" />
+</FrameLayout>
